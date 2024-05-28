@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background: url(gray.jpg) no-repeat;
+    background-size: cover;
+   background-position: center;
+}
+
+.header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none; /* Ensure list-style is none if you use <ul> for nav items */
+  
+}
+
+.navbar a {
+    margin-left: 20px; /* Adjust spacing between nav items */
+    text-decoration: none;
+    color: white; /* Change color as needed */
+    font-family: "Lucida Console", "Courier New", monospace;
+   
+}
+
+.intro-content{
+
+    margin-top: 13rem;
+    margin-left: 5rem;
+    color: white;
+}
+
+.content-1{
+    font-size: 32px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.content-2{
+   
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 42px;
+}
+
+.content-3{
+    margin-bottom: 5px;
+    text-align: justify;
+    height: 10rem;
+    width: 31.5rem;
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    left: 5rem;
+    top: 24.5rem;
+    display: flex;
+  
+}
+
+button:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-color:rgb(32, 32, 32);
+}
+
+.title{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+}
+
+.myprojects {
+    display: flex; /* Apply flexbox */
+    gap: 20px; /* Adjust spacing between the flex items */
+}
+
+.myprojects > div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 10px;
+    border: 2px solid white; /* Optional: Add borders for better visibility */
+    border-radius: 1rem;
+    flex: 1; /* Distribute the space equally among items */
+    margin-bottom: 1rem;
+
+}
+
+.projects{
+    text-align: center;
+    display: flex;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    padding: 20px;
+}
+
+.project-1 {
+    flex: 2; /* Make the first project take twice the space */
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.project-2 {
+    flex: 2; /* Make the first project take twice the space */
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.project-3 {
+    flex: 2; /* Make the first project take twice the space */
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+
